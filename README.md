@@ -1,0 +1,1 @@
+This Website is not finished so it may not have been configured for other devices than a pc.

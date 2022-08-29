@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
 
 
-body {
+* {
     margin: 0;
     padding: 0;
     color: #1f1f1f;
+    background-color: #1f1f1f;
 }
 
 .container {
@@ -41,14 +42,20 @@ body {
 
 h1.name {
     font-family: 'Dancing Script', cursive;
-    font-size: 5rem;
+    font-size: 8vw;
     margin: 0;
     margin-bottom: 10px;
+    background: none;
+}
+
+.name-info {
+    background: none;
 }
 
 .name-info p {
     font-family: 'Roboto Mono', monospace;
     font-weight: bolder;
+    background: none;
     letter-spacing: 1em;
 }
 
@@ -72,7 +79,6 @@ a.info-btn:hover {
 .copyright {
     display: flex;
     height: 80px;
-    background: #1f1f1f;
     align-items: center;
     justify-content: center;
 }
